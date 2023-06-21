@@ -15,6 +15,17 @@ export const getStaticProps: GetStaticProps = async () => {
         email: "burk@prisma.io",
       },
     },
+    {
+      id: "2",
+      title: "2 Prisma is the perfect ORM for Next.js",
+      content: "Testing _great_ together!",
+      published: false,
+      author: {
+        name: "Nikolas Burk",
+        email: "burk@prisma.io",
+      },
+    },
+  
   ]
   return { 
     props: { feed }, 
